@@ -2,7 +2,7 @@
 >A 2D Lennard-Jones potential simulator implemented in Python.
 
 ## Lennard-Jones Potential
-The Lennard-Jones potential describes interactions between a pair of neutral atoms or molecules:
+The Lennard-Jones potential models intermolecular interactions:
 
 ![Lennard-Jones Potential](lj_potential.png)
 
@@ -17,16 +17,17 @@ This simulator demonstrates a fundamental principle of molecular dynamics. Inter
 * The **r⁻¹² term** models short-range repulsion.
 * The **r⁻⁶ term** represents longer-range attraction.
 
-By tuning ε and σ, different material behaviors can be approximated, making this model useful in particle physics, chemistry, and material science simulations. The default implementation 
+By tuning ε and σ, different material behaviors can be approximated, making this model useful in particle physics, chemistry, and material science simulations.
 
 Learn more about the Lennard-Jones potential [here](https://en.wikipedia.org/wiki/Lennard-Jones_potential).
 
 ## Features
 
 * Pairwise Lennard-Jones forces are calculated to determine particle interactions every time-step.
-* Dynamic visualization using Pygame with force-dependent particle coloring.
-* Collision handling with .
 * Velocity-Verlet integration for stable time stepping.
+* Dynamic visualization using Pygame, with particle colors representing applied force.
+* Collision detection with broad-phase distance checks and positional correction to prevent object sink.
+* Collision handling using impulse-based resolution and restitution modeling to simulate energy loss.
 
 ## How to Run
 Ensure Python 3.8+ is installed and install pygame:
