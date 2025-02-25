@@ -2,7 +2,7 @@
 >A 2D Lennard-Jones potential simulator implemented in Python.
 
 ## Lennard-Jones Potential
-The Lennard-Jones potential models intermolecular interactions:
+The Lennard-Jones potential is a standard model of intermolecular interactions:
 
 ![Lennard-Jones Potential](lj_potential.png)
 
