@@ -1,6 +1,14 @@
 # LJ-Simulator
 >A 2D Lennard-Jones potential simulator implemented in Python.
 
+## Features
+
+* Pairwise Lennard-Jones forces are calculated to determine particle interactions every time-step.
+* Velocity-Verlet integration for stable time stepping.
+* Dynamic visualization using Pygame, with particle colors representing applied force.
+* Collision detection with broad-phase distance checks and positional correction to prevent object sink.
+* Collision handling using impulse-based resolution and restitution modeling to simulate energy loss.
+
 ## Lennard-Jones Potential
 The Lennard-Jones potential is a standard model of intermolecular interactions:
 
@@ -24,14 +32,6 @@ This simulator demonstrates a fundamental principle of molecular dynamics. Inter
 By tuning ε and σ, different material behaviors can be approximated, making this model useful in particle physics, chemistry, and material science simulations.
 
 Learn more about the Lennard-Jones potential [here](https://en.wikipedia.org/wiki/Lennard-Jones_potential).
-
-## Features
-
-* Pairwise Lennard-Jones forces are calculated to determine particle interactions every time-step.
-* Velocity-Verlet integration for stable time stepping.
-* Dynamic visualization using Pygame, with particle colors representing applied force.
-* Collision detection with broad-phase distance checks and positional correction to prevent object sink.
-* Collision handling using impulse-based resolution and restitution modeling to simulate energy loss.
 
 ## How to Run
 Ensure Python 3.8+ is installed and install required libraries:
