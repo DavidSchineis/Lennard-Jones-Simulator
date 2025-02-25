@@ -4,11 +4,15 @@
 ## Lennard-Jones Potential
 The Lennard-Jones potential is a standard model of intermolecular interactions:
 
-![Lennard-Jones Potential](lj_potential.png)
+<p align="center">
+  <img src="assets/lj_potential.png" width="270">
+</p>
 
 The force exerted by the Lennard-Jones potential is obtained by taking the negative gradient of the potential:
 
-![Lennard-Jones Force](lj_force.png)
+<p align="center">
+  <img src="assets/lj_force.png" width="300">
+</p>
 
 This simulator demonstrates a fundamental principle of molecular dynamics. Interactions between particles can be approximated using modular force laws based on distance. The Lennard-Jones potential effectively models repulsion at very close distances, attraction at medium disatances, and minimal interaction at long distances.
 
