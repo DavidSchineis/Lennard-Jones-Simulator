@@ -13,7 +13,7 @@
 The Lennard-Jones potential is a standard model of intermolecular interactions:
 
 <p align="center">
-  <img src="assets/lj_potential.png" width="260">
+  <img src="assets/lj_potential.png" width="250">
 </p>
 
 The force exerted by the Lennard-Jones potential is obtained by taking the negative gradient of the potential:
