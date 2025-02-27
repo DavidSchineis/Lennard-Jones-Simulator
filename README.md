@@ -36,7 +36,7 @@ Learn more about the Lennard-Jones potential [here](https://en.wikipedia.org/wik
 ## How to Run
 Ensure Python 3.8+ is installed and install required libraries:
 ```bash
-pip install -r requirements.txt
+pip install -r assets/requirements.txt
 ```
 
 Run the simulation:
