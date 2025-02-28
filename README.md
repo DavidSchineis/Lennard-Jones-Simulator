@@ -1,4 +1,4 @@
-# LJ-Simulator
+# Lennard-Jones Simulator
 >A 2D Lennard-Jones potential simulator implemented in Python to demonstrate a fundamental principle of molecular physics where interactions between particles can be approximated based off of distance.
 
 ## Features
