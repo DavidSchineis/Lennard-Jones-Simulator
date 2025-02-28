@@ -1,5 +1,5 @@
 """
-LJ-Simulator: 2D Lennard-Jones Potential Simulation
+Lennard-Jones Simulator: 2D Lennard-Jones Potential Simulation
 Author: David Schineis
 Description: A 2D Lennard-Jones simulator implemented in Python
 """
@@ -21,7 +21,7 @@ DT = 0.01  # Time step
 # Initialize Pygame
 pygame.init()
 screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
-pygame.display.set_caption("LJ Simulator")
+pygame.display.set_caption("Lennard-Jones Simulator")
 
 # Create Particles
 particles = []
