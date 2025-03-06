@@ -32,7 +32,7 @@ By tuning ε and σ, different material behaviors can be approximated, making th
 
 Learn more about the Lennard-Jones potential [here](https://en.wikipedia.org/wiki/Lennard-Jones_potential).
 
-## How it looks
+## Simulator in Action
 <p align="center">
   <img src="assets/LJ_Sim_Ex.gif" width="500">
 </p>
