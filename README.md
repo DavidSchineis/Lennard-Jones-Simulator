@@ -32,7 +32,17 @@ By tuning ε and σ, different material behaviors can be approximated, making th
 
 Learn more about the Lennard-Jones potential [here](https://en.wikipedia.org/wiki/Lennard-Jones_potential).
 
+## How it looks
+<p align="center">
+  <img src="assets/LJ_Sim_Ex.gif" width="500">
+</p>
+
 ## How to Run
+Clone this repository
+```bash
+git clone https://github.com/DavidSchineis/Lennard-Jones-Simulator.git
+```
+
 Ensure Python 3.8+ is installed and install required libraries:
 ```bash
 pip install -r assets/requirements.txt
