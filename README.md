@@ -43,7 +43,7 @@ Clone this repository
 git clone https://github.com/DavidSchineis/Lennard-Jones-Simulator.git
 ```
 
-Ensure Python 3.8+ is installed and install required libraries:
+Ensure Python 3.11+ is installed and install required libraries:
 ```bash
 pip install -r assets/requirements.txt
 ```
