@@ -23,10 +23,10 @@ The force exerted by the Lennard-Jones potential is obtained by taking the negat
 </p>
 
 Where:
-* **ε (epsilon)** controls the depth of the potential well.
-* **σ (sigma)** is the distance at which the potential reaches zero.
-* The **r⁻¹² term** models short-range repulsion.
-* The **r⁻⁶ term** represents longer-range attraction.
+* ε (epsilon) controls the depth of the potential well.
+* σ (sigma) is the distance at which the potential reaches zero.
+* The r⁻¹² term models short-range repulsion.
+* The r⁻⁶ term represents longer-range attraction.
 
 By tuning ε and σ, different material behaviors can be approximated, making this model useful in molecular physics, chemistry, and material science simulations.
 
